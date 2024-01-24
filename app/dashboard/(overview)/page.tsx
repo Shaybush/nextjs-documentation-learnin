@@ -37,7 +37,7 @@ export default async function Page() {
         </Suspense>
 
         {/* reload specific component */}
-        <Suspense fallback={<LatestInvoicesSkeleton />}>
+        <Suspense fallback={<div>loading...</div>}>
           <LatestInvoices />
         </Suspense>
       </div>
