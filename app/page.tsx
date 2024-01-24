@@ -1,6 +1,7 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
+import styles from '@/app/ui/home.module.css';
 
 export default function Page() {
   return (
@@ -15,7 +16,7 @@ export default function Page() {
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course
             </a>
-            , brought to you by Vercel.
+            , brought to you by Vercel. <div className={styles.shape} />
           </p>
           <Link
             href="/login"
