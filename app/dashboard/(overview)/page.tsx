@@ -36,6 +36,7 @@ export default async function Page() {
           <RevenueChart />
         </Suspense>
 
+        {/* reload specific component */}
         <Suspense fallback={<LatestInvoicesSkeleton />}>
           <LatestInvoices />
         </Suspense>
