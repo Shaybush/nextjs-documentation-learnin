@@ -184,6 +184,9 @@ export async function fetchInvoiceById(id: string) {
 }
 
 export async function fetchCustomers() {
+  // SSG - static site rendering
+  // SSR - server side rendering 
+  // CSR - server side rendering 
   noStore();
 
   try {
